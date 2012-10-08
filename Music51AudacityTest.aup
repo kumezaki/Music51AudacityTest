@@ -1,8 +1,12 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<<<<<<< HEAD
 <project xmlns="http://audacity.sourceforge.net/xml/" projname="Music51AudacityTest_data" version="1.3.0" audacityversion="2.0.2" sel0="8.1496825400" sel1="8.1496825400" vpos="0" h="0.0000000000" zoom="50.4000000000" rate="44100.0">
+=======
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Music51AudacityTest_data" version="1.3.0" audacityversion="2.0.2" sel0="3.6507936508" sel1="4.7420634921" vpos="0" h="0.0000000000" zoom="50.4000000000" rate="44100.0">
+>>>>>>> Ko's changes again.
 	<tags/>
-	<wavetrack name="Ko&apos;s Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="Ko&apos;s Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="134750">
 				<waveblock start="0">
@@ -11,7 +15,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="5.19841270">
+		<waveclip offset="6.28968254">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="12949">
 				<waveblock start="0">
 					<simpleblockfile filename="e0000171.au" len="12949" min="-0.000224" max="0.000413" rms="0.00001"/>
@@ -21,7 +25,7 @@
 				<controlpoint t="0.293605442177" val="1.000000000000"/>
 			</envelope>
 		</waveclip>
-		<waveclip offset="5.49204082">
+		<waveclip offset="6.58331066">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="117202">
 				<waveblock start="0">
 					<simpleblockfile filename="e000078c.au" len="117202" min="-0.43482" max="0.405155" rms="0.038149"/>
@@ -32,7 +36,7 @@
 				<controlpoint t="2.657619047619" val="1.000000000000"/>
 			</envelope>
 		</waveclip>
-		<waveclip offset="8.14968254">
+		<waveclip offset="9.24095238">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="156579">
 				<waveblock start="0">
 					<simpleblockfile filename="e00008bb.au" len="131993" min="-0.221002" max="0.171395" rms="0.015187"/>
@@ -45,7 +49,7 @@
 				<controlpoint t="0.000000000000" val="1.000000000000"/>
 			</envelope>
 		</waveclip>
-		<waveclip offset="14.06746032">
+		<waveclip offset="15.15873016">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="76125">
 				<waveblock start="0">
 					<simpleblockfile filename="e0000063.au" len="76125" min="-0.06298" max="0.072271" rms="0.007573"/>
@@ -53,7 +57,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="17.08333333">
+		<waveclip offset="18.17460317">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="58625">
 				<waveblock start="0">
 					<simpleblockfile filename="e0000154.au" len="58625" min="-0.06298" max="0.072271" rms="0.010366"/>
@@ -61,8 +65,16 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
+		<waveclip offset="3.65079365">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="48125">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b12.au" len="48125" min="-0.205826" max="0.159455" rms="0.020565"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
 	</wavetrack>
-	<wavetrack name="Michael&apos;s Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="Michael&apos;s Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="3.05555556">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="101499">
 				<waveblock start="0">
